@@ -14,7 +14,7 @@ import {
 
 const PORT = process.env.PORT || 9000;
 
-const DB_URL = procese.env.DB_URL || "mongodb://localhost:27017/MyDoc";
+const DB_URL = process.env.DB_URL || "mongodb://localhost:27017/MyDoc";
 Connection(DB_URL);
 
 const app = express();
